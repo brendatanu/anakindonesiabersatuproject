@@ -1,0 +1,7 @@
+{
+  "name": "AIB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
