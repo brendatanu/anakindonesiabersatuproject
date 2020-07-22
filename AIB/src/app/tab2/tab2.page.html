@@ -1,17 +1,44 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      About Us
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
+  <head>
+    <link rel="stylesheet" type="scss" href="tab2.page.scss">
+  </head>
+
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">About Us</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <app-explore-container name="About Us"></app-explore-container>
+
+  <ion-content
+  [scrollEvents]="true"
+  (ionScrollStart)="logScrollStart()"
+  (ionScroll)="logScrolling($event)"
+  (ionScrollEnd)="logScrollEnd()">
+  <div class = "blackBox1">
+    <h1>Anak Indonesia Bersatu is a non-profit organization that aims to </h1>
+  </div> 
+  
+
+    <div class="blackBox2">
+      <h2>Who we are</h2>
+    </div>
+
+    <div class="blackBox2">
+      <h3>Anak Indonesia Bersatu was founded by a group of young Indonesian students in response to the Covid-19 outbreak and continues to tackle other nationwide issues such as food shortages for the community during this pandemic.</h3>
+    </div>
 </ion-content>
+ 
+
+
+
+
