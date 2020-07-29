@@ -1,26 +1,100 @@
-.blackBox1 {
-    height: 150px;
-    width: 400px;
-    background-color: white;
-    border-style: solid;
-    border-width: 20px;
-    border-color: black;
-    padding: 20px;
-    margin: 0 auto; 
-  
-
+ion-content{
+    --ion-background-color: white; 
 }
-.blackBox2 {
-    height: 200px;
-    width: 1430px;
-    background-color: white;
-    border-style: solid;
-    border-width: 0px;
-    border-color: black;
-    padding: 10px;
-    margin: 0 auto; 
-  
 
+.background-color{
+    --background: rgb(148, 30, 54);
+}
+
+.background-color-2{
+    --background: rgb(250, 231, 234);
+    color: black;
+    font-size: 0.95rem;
+}
+
+.ion-text-center{
+    font-size: 15px;
+}
+
+.img{
+    height: 200px;
+    width: 1440px;
+}
+
+.ion-text-center-2 {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    color: black; 
+    position: relative;
+    top: -33px;
+}
+
+.ion-text-6 {
+    font-size: 15px;
+}
+
+.ion-text-center-3 {
+   width: 400px;
+    text-align: center;
+    margin: auto 1030px;
+    background-color: white;
+    color: black;
+}
+
+.ion-avatar{
+    position: relative;
+    top: 13px;
+    left: 15px;
+}
+
+.ion-text{
+    font-size: 23.5px;
+    color: black;
+    position: relative;
+    top: -33px;
+    left: 75px;
+}
+.ion-text-2{
+    text-align: right;
+    font-size: 23.5px;
+    color: black;
+    position: relative;
+    top: -55px;
+    right: 500px;
+}
+
+.ion-text-3{
+    text-align: right;
+    font-size: 23.5px;
+    color: black;
+    position: relative;
+    top: -82px;
+    right: 345px;
+}
+
+.ion-text-4{
+    text-align: right;
+    font-size: 23.5px;
+    color: black;
+    position: relative;
+    top: -110px;
+    right: 180px;
+}
+
+.ion-text-5{
+    text-align: right;
+    font-size: 23.5px;
+    color: black;
+    position: relative;
+    top: -140px;
+    right: 10px;
+}
+
+.ion-text-center-4{
+    font-size: 23.5px;
+    color: black;
 }
 
 h1 {
@@ -41,5 +115,5 @@ h3 {
     text-align: center;
     color: black;
     font-size: 15px;
-
 }
+

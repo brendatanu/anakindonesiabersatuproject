@@ -1,44 +1,80 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      About Us
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-  <head>
-    <link rel="stylesheet" type="scss" href="tab2.page.scss">
-  </head>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">About Us</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-header [translucent]="true">
+    <ion-toolbar class ="background-color">
+      <ion-avatar class ="ion-avatar">
+        <img src="https://cdn2.tstatic.net/tribunnews/foto/bank/images/anak-indonesia-bersatu-menyalurkan-apd-untuk-tim-medis_20200507_121519.jpg">
+      </ion-avatar>
+    
+      <ion-title class ="ion-text">
+        Anak Indonesia Bersatu
+      </ion-title>
+      <ion-title class ="ion-text-2">
+        Home
+      </ion-title>
+      <ion-title class ="ion-text-3">
+        About Us
+      </ion-title>
+      <ion-title class ="ion-text-4">
+        Campaigns
+      </ion-title>
+      <ion-title class ="ion-text-5">
+        Merchandise
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-header [translucent]="true">
+    <ion-toolbar class="background-color-2">
+      <ion-title class ="ion-text-center">
+        We are accepting donations for our ‘Rantai Kebaikan’ campaign. Find out more here   
+     </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <head>
+    <link rel="stylesheet" type="scss" href="tab2.page.scss">
+  </head>
 
-  <app-explore-container name="About Us"></app-explore-container>
+  <img class ="img" src="https://i.pinimg.com/originals/86/fc/15/86fc15478d7ead2072dce70a258f3e11.jpg">
 
+  <cl-image public-id="https://i.pinimg.com/originals/86/fc/15/86fc15478d7ead2072dce70a258f3e11.jpg">
+    <cl-transformation width="300" height="600" gravity="auto" crop="centercrop">
+    </cl-transformation>
+  </cl-image>
+
+  <img class="img-2" src="girl">
   <ion-content
   [scrollEvents]="true"
   (ionScrollStart)="logScrollStart()"
   (ionScroll)="logScrolling($event)"
   (ionScrollEnd)="logScrollEnd()">
-  <div class = "blackBox1">
-    <h1>Anak Indonesia Bersatu is a non-profit organization that aims to </h1>
-  </div> 
   
 
-    <div class="blackBox2">
-      <h2>Who we are</h2>
-    </div>
+  <ion-card class="ion-text-center-2">
+    <ion-card-content class ="ion-text-6">
+      Anak Indonesia Bersatu is a non-profit organization that aims to relieve the impacts of COVID-19 across Indonesia.
+    </ion-card-content>
+  </ion-card>
 
-    <div class="blackBox2">
-      <h3>Anak Indonesia Bersatu was founded by a group of young Indonesian students in response to the Covid-19 outbreak and continues to tackle other nationwide issues such as food shortages for the community during this pandemic.</h3>
-    </div>
+  <ion-card class="ion-text-center-3">
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title class="ion-text-center-4">Who We Are</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Anak Indonesia Bersatu was founded by a 
+      group of young Indonesian students in 
+      response to the Covid-19 outbreak and 
+      continues to tackle other nationwide issues 
+      such as food shortages for the community 
+      during this pandemic.
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
- 
-
-
-
-
